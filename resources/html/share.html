@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta property="og:title" content="%title%" />
+  <meta property="og:description" content="%description%" />
+  <meta property="og:image" content="%image_url%" />
+  <meta property="og:url" content="%page_url%" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="description" content="%description%">
+  <title>%title%</title>
+</head>
+
+<body>
+  <p>ビンゴページを読み込んでいます...</p>
+  <script>
+    if (!/twitter|facebook|line|bot/i.test(navigator.userAgent)) {
+      window.location.href = "%redirect_url%";
+    }
+  </script>
+</body>
+
+</html>

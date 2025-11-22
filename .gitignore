@@ -1,0 +1,16 @@
+# デプロイスクリプト
+/bat
+/config
+
+# 環境変数ファイル
+.env*
+
+# IDE/エディタ設定
+.vscode
+
+# Go関連（ビルド成果物）
+/bin
+
+# Vue3/Node.js関連
+/front/node_modules
+/front/dist
