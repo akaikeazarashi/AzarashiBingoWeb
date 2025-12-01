@@ -43,10 +43,6 @@ func GetItem(c *gin.Context, db *gorm.DB) {
 		return
 	}
 
-	if err != nil {
-		log.Fatalf("Failed GetItem: %v", err)
-	}
-
 	c.JSON(http.StatusOK, gin.H{"result": true, "item": bingo})
 }
 
